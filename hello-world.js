@@ -5,7 +5,7 @@
 */
 
 // console.log is used to output to the console
-console.log("Hi from hello-world.js!");
+console.logg("Hi from hello-world.js!");
 
 /*
 -------------------------------------------------------------------------------------

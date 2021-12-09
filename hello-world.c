@@ -11,7 +11,7 @@
 int main()
 {
     // The print function is used to output to the console
-    printf("Hi from hello-world.c!\n");
+    printf("Hi from hello-world.c!\n")
 }
 /*
 -------------------------------------------------------------------------------------
