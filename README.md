@@ -1,8 +1,10 @@
 #  Check Changed Files Helper ✔️
 
+![Check Changed Files Helper](https://res.cloudinary.com/practicaldev/image/fetch/s--NNZjm2uc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q5483y5sadyg3nqf3gu8.png)
+
 ##  📜 About 📜
 
-Submitted for the GitHub Actions Hackathon on DEV. [View the DEV post submission]().
+Submitted for the GitHub Actions Hackathon on DEV. [View the DEV post submission](https://dev.to/funbeedev/check-changed-files-helper-github-actions-4dao).
 
 [GitHub Actions](https://github.com/features/actions) are a feature provided by GitHub as a way to automate workflows useful for managing repositories.
 
@@ -10,7 +12,7 @@ Submitted for the GitHub Actions Hackathon on DEV. [View the DEV post submission
 
 This repo shows an example of how GitHub Action workflows can be used to automate checks on files changed in the repo.
 
-This project relies on the [`Get Changed Files`](https://github.com/marketplace/actions/get-changed-files) Action available on the GitHub marketplace. The `Get Changed Files` Action will provide all added, renamed and modified files in a JSON file within the runner filesystem. When a file or multiple files are changed on the repo, it will identify each changed file.
+This project relies on the [`Get Changed Files`](https://github.com/marketplace/actions/get-changed-files) Action available on the GitHub marketplace. This Action provides all added, renamed and modified files as a JSON file within the runner filesystem. When a file or multiple files are changed on the repo, it will identify and list each in the JSON file.
 
 `Check Changed Files Helper` takes each changed file and performs a check to execute any recognised source file types. A handy way to automate checks of files submitted to your repository!
 
