@@ -1,0 +1,30 @@
+name: auto-check-changed-files
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  auto-check-changed-files:
+    runs-on: ubuntu-latest
+  
+    steps:
+  
+    # checkout repo
+    - uses: actions/checkout@v2
+    
+    # use action to get files that changed
+    - uses: lots0logs/gh-action-get-changed-files@2.1.4
+      with:
+       token: ${{ secrets.GITHUB_TOKEN }}
+
+    # bash script to get list of changed files and check each
+    # set permission of script and execute
+    - name: Checking files
+      run: |
+        echo "job: running script to check changed files:"
+        chmod +x ./.github/workflows/auto-check-changed-files.sh
+        ./.github/workflows/auto-check-changed-files.sh
+        echo "job: Done"
