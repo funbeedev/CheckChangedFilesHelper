@@ -4,7 +4,7 @@
 # ------------------------------------------------------------------------------------
 
 # echo is used to output to the console
-echo "hello-world.sh"
+echo "Hi from hello-world.sh!"
 
 # ------------------------------------------------------------------------------------
 # Challenge: 1. print "hello universe" to the console

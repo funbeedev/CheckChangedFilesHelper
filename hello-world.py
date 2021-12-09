@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------------
 
 # Print is used to output to the console
-print("hello-world.py")
+print("Hi from hello-world.py!")
 
 # ------------------------------------------------------------------------------------
 # Challenge: 1. print "hello universe" to the console
